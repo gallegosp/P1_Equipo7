@@ -1,0 +1,218 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bg-principal {
+  background-color: #b6d88f;
+  color: #28488f;
+}
+
+.boton {
+  padding: 10px 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 30px;
+  background-color: #fab689;
+  border: none;
+}
+
+.boton2 {
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #e27a18;
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.pad-y {
+  padding-top: 10%;
+}
+
+i {
+  font-size: 3rem;
+}
+
+.img1 {
+  width: 100%;
+  background-image: url("../image/ntrs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e27a18;
+  margin: auto;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+  display: inline-block;
+}
+
+.texto {
+  width: 100%;
+  text-align: center;
+  background-color: #168aad;
+  padding: 150px;
+}
+
+.bg-tx {
+  background-color: #184e77;
+}
+
+.img3 {
+  width: 100%;
+  background-image: url("../image/fondo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e27a18;
+  margin: auto;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+  display: inline-block;
+}
+
+.apps {
+  text-align: center;
+  background-color: #fab689;
+  padding: 50px;
+}
+
+/*-------------------------------------------------------------- 
+
+# GALERÍA 1 MODAL 
+
+--------------------------------------------------------------*/
+#portfolio1 .portfolio-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio1 .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#portfolio1 .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.438);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#portfolio1 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+
+#portfolio1 .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+
+#portfolio1 .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio1 .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+/*-------------------------------------------------------------- 
+
+# ESTILOS DEL MODAL 
+
+--------------------------------------------------------------*/
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.623);
+  border: none;
+  border-radius: 0;
+  color: white;
+}
+.modal-content a {
+  color: white;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.img4 {
+  width: 100%;
+  background-image: url("../image/pro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  margin: auto;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+  display: inline-block;
+}
+
+.img5 {
+  width: 100%;
+  background-image: url("../image/multi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e27a18;
+  margin: auto;
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  display: inline-block;
+}
+
+.clientes {
+  text-align: center;
+  border: 80px solid #168aad;
+  padding: 30px;
+}
+
+.img7 {
+  width: 100%;
+  background-image: url("../image/inbox.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e27a18;
+  margin: auto;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+  display: inline-block;
+}
+
+.imgpor {
+  width: 100%;
+  background-image: url("../image/port.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e27a18;
+  margin: auto;
+  padding-top: 15%;
+  padding-left: 3%;
+  padding-bottom: 15%;
+  display: inline-block;
+}
+
+.mark {
+  background-color: #184e77;
+  color: #e27a18;
+}
